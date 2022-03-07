@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    --grey1: #f8f8ff;
+    --grey2: #f3f4f5;
+    --grey3: #65676b;
+    --grey4: #dddee0;
+    --grey5: #a0a1a3;
+    --black1: #101010;
+    --brand-color: #e9c704;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+    background: white;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: auto;
+    width: calc(100% - 48px);
+  }
+  
+  .flex-container {
+    display: flex;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  h1 {
+    font-weight: 800;
+    font-size: 96px;
+    line-height: 105px;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  h2 {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 67px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    line-height: 30, 43px;
+    font-weight: 700;
+  }
+  
+  h4,
+  h6 {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+  
+  .brand {
+    color: var(--brand-color);
+  }
+  
+  .logo {
+    width: 60px;
+    height: 60px;
+  }
+  
+  @media screen and (max-width: 1192px) {
+    h1 {
+      font-size: 72px;
+      line-height: 96px;
+      font-family: "Ubuntu", sans-serif;
+    }
+  
+    h2 {
+      font-size: 48px;
+      line-height: 56px;
+    }
+  
+    h3 {
+      font-size: 22px;
+      line-height: 28, 43px;
+    }
+  
+    h4,
+    h6 {
+      font-size: 14px;
+    }
+  
+    .column-lg {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .column-md {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 580px) {
+    .column-sm {
+      flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 440px) {
+    .column-xs {
+      flex-direction: column;
+    }
+  }
+
+  /* Nav Bar */
+.header{
+    display: flex;
+}
+
+  #navigate{
+      display: flex;
+  }
+
+  .nav-bar{
+
+  }
